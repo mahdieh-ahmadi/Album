@@ -1,0 +1,76 @@
+#container{
+    background-color:white ;
+}
+#colomn1{
+    color: white;
+    padding: 15px;
+    padding-left: 45px;
+}
+#colomn2{
+    color: white;
+    padding: 15px;
+    padding-left: 25px;
+    
+}
+#colomn2 a{
+    color: white;
+    
+    
+}
+#link{
+    padding-left: 10%;
+    font-family: cursive;
+}
+#butom1{
+    margin-right: 10%;
+}
+#paragraf{
+    color: gray;
+}
+#main{
+    background-color: white;
+}
+#maintext{
+    text-align: center;
+    font-family: Microsoft Himalaya;
+    font-size: 80px;
+    padding-top: 155px;
+}
+#button{
+    padding-top: 15px;
+    padding-bottom: 150px;
+   
+}
+#colom1 button{
+    float: right;
+}
+#colom2 button{
+    float: left;
+}
+#paragraph2{
+    text-align: center;
+    line-height: 50px;
+    font-family: serif;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    color: rgb(146, 146, 146);
+}
+#container1{
+    background-color: rgb(235, 235, 235);
+}
+#cards{
+    margin: auto;
+    box-shadow: 5px 5px 1px 1px rgba(192, 192, 192, 0.2);
+}
+#card{
+    
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#footer1{
+    padding: 60px 0px 60px 65px;
+}
+#footer2{
+    padding: 60px 0px 60px 5px;
+}
