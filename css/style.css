@@ -1,6 +1,9 @@
 #container{
     background-color:white ;
 }
+.row{
+    padding: 5px 20px;
+}
 #colomn1{
     color: white;
     padding: 15px;
@@ -23,6 +26,11 @@
 }
 #butom1{
     margin-right: 10%;
+    outline: none;
+}
+
+.btn:hover{
+    box-shadow: 0 3px 5px #ccc;
 }
 #paragraf{
     color: gray;
@@ -62,6 +70,20 @@
 #cards{
     margin: auto;
     box-shadow: 5px 5px 1px 1px rgba(192, 192, 192, 0.2);
+    overflow: hidden;
+}
+.card-img-top{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    padding: 0;
+    margin-top: -10px !important;
+    transition: all 0.4s;
+    filter: opacity(0.9);
+}
+.card-img-top:hover{
+    transform: scale(1.05);
+    filter: opacity(1.1);
 }
 #card{
     
@@ -73,4 +95,80 @@
 }
 #footer2{
     padding: 60px 0px 60px 5px;
+}
+
+@media(max-width :600px){
+    .rowContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #colomn1 , #colomn2{
+        max-width: 100% !important;
+    }
+
+    #colomn2{
+        text-align: center;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #footer1{
+        padding-bottom: 0px;
+        max-width: 100% !important;
+        padding:30px 10px;
+    }
+    #footer2{
+        padding: 15px 0;
+        max-width: 100%;
+    }
+    #paragraph2{
+        width: 85%;
+    }
+}
+
+@media(max-width : 940px){
+    #container1{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container1 *{
+        margin: 10px auto;
+        max-width:100%;
+    }
+
+    #container1 #cards{
+        max-width:100%;
+        padding: 0;
+    }
+}
+
+@media(max-width : 500px){
+    #button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+
+    #button *{
+        text-align: center;
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #maintext{
+        padding-top: 70px;
+        width: 95%;
+    }
 }
